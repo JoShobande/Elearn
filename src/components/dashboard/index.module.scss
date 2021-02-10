@@ -1,0 +1,28 @@
+._{
+    display: grid;  
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    // grid-template-areas:  "Home" "rightSideBar";
+    @media(min-width: 768px){
+        grid-template-columns: 25% 45% 30%;
+        grid-template-areas: "leftSideBar Home rightSideBar";
+
+        &_left_bar{
+            grid-area: leftSideBar;
+    
+        }
+    
+        &_home{
+            grid-area: Home;
+        }
+    
+        &_rightSideBar{
+            grid-area: rightSideBar;
+        }
+    }
+
+   
+
+    
+        
+}

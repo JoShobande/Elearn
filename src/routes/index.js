@@ -1,10 +1,12 @@
 import React from "react"
-import SideBar from "../components/sideBar"
+import DashBoard from "../components/dashboard";
+import Home from "../components/home";
+import LeftSideBar from "../components/leftSideBar"
 
 const Routes = () =>{
     return(
         <div>
-            <SideBar/>
+            <DashBoard/>
         </div>
     )
 }

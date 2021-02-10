@@ -1,0 +1,48 @@
+._{
+    
+    >p, >h1{
+        padding-top: 10px;
+    }
+    
+
+
+    &_home_card{
+        background-color: #2F3CED;
+        border-radius: 20px;  
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        padding: 10px;
+        color: white;
+        margin-top: 20px;
+        
+        
+        
+        
+    }
+    &_text{
+        padding-right: 25px;
+        padding-top: 40px;
+        line-height: 32px;
+        // h2{
+        //     // height: 30%;
+        //     padding-top: 15px;
+        //     // color: red;
+        // }
+        p{
+            line-height: 24px;
+        }
+        button{
+            background: #FFFFFF;
+            box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.250929);
+            border-radius: 16px;
+            width: 158px;
+            height: 56px;
+            border: none;
+            margin-top: 10px;
+
+        }
+    }
+}

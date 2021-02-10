@@ -1,11 +1,11 @@
 import React from "react"
-import homeMenuIcon from "../assets/images/homeMenuIcon.svg"
-import courseMenuIcon from "../assets/images/courseMenuIcon.svg"
-import favouriteMenuIcon from "../assets/images/favouriteMenuIcon.svg"
-import testMenuIcon from "../assets/images/testMenuIcon.svg"
-import achMenuIcon from "../assets/images/achMenuIcon.svg"
-import certMenuIcon from "../assets/images/certMenuIcon.svg"
-import settingsMenuIcon from "../assets/images/settingsMenuIcon.svg"
+import homeMenuIcon from "../../assets/images/homeMenuIcon.png"
+import courseMenuIcon from "../../assets/images/courseMenuIcon.svg"
+import favouriteMenuIcon from "../../assets/images/favouriteMenuIcon.svg"
+import testMenuIcon from "../../assets/images/testMenuIcon.svg"
+import achMenuIcon from "../../assets/images/achMenuIcon.svg"
+import certMenuIcon from "../../assets/images/certMenuIcon.svg"
+import settingsMenuIcon from "../../assets/images/settingsMenuIcon.svg"
 import styles from './index.module.scss';
 
 
@@ -46,9 +46,12 @@ const Menu = () =>{
             {
                 menuItems.map((menuItem)=>{
                    return (
-                            <div className={styles.__menu_item}>
-                                <img src={menuItem.icon} alt="icon"/>
-                                <p>{menuItem.title}</p>
+                            <div className={styles._}>
+                               
+                                    <img src={menuItem.icon} alt="icon"/>
+                                    <p>{menuItem.title}</p>
+                                
+                               
                             </div>
                           )
                 })

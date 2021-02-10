@@ -1,0 +1,22 @@
+._{
+    position: fixed;
+    padding-top: 2rem;
+    margin-left: 3rem;
+    padding-bottom: 5px;
+    border-right: 1px solid  #E4E4E4;
+    color: #808191;
+    height: 100vh;
+    width: 20%; 
+    display: none;   
+    &_logo{
+        margin-left: 2rem;
+    }
+    &_menu{
+        margin-top: 2rem;              
+    }
+
+    @media(min-width: 768px){
+        display: block
+    }
+
+}
